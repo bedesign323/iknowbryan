@@ -1,0 +1,258 @@
+/* VARS 
+-------------------------------------------------------------- */
+$main_width:      1200px;
+
+$bp_lg:           1400px;
+$bp_med:          1080px;
+$bp_sm:           700px;
+
+/*  COLORS  */
+$color_main:         #333;                 
+$color_accent:       #5a9b9d;              
+$color_main_lt:      #afd5d6;
+$color_error:        #b54747;
+$color_warning:      #f0da72;
+
+$color_bed:          #c35b57;
+$color_fc:           #354141;
+$color_fc_accent:    #5a9b9d;
+$color_ah:           #e4ba27;
+
+
+$page_bg:            #f3f3f3;
+$page_med:           darken($page_bg, 5%);
+$page_lt:           #405858;
+$page_dark:          #2b3232;
+
+/*  TYPOGROPHY */
+$font_main:					'LatoLight', sans-serif;
+$font_header:				'Bebas', sans-serif;
+$font_fancy:        'GaramondPremierProLightItalicDisplay', serif;
+
+$font_bebas:       'Bebas', sans-serif;
+
+$font_weight_lt:         100;
+$font_weight_reg:        400;
+$font_weight_bold:       700;
+
+/*  TRANSITIONS  */
+$default-transition-property : all;
+$default-transition-duration : .3s;
+$default-transition-function : false;
+$default-transition-delay    : false;
+
+$border_solid_lt:       lighten($color_main_lt, 15%) solid 1px;
+$border_solid_accent:   $color_accent solid 1px;
+$border_dashed_lt:      $page_lt dashed 1px;
+$border_dashed_accent:  $color_accent dashed 1px;
+
+
+
+/* MIX-INS 
+-------------------------------------------------------------- */
+@mixin bp($point) {
+  @if $point == l {
+    @media (max-width: $bp_lg) { @content; }
+  }
+  @else if $point == m {
+    @media (max-width: $bp_med) { @content; }
+  }
+  @else if $point == s {
+    @media (max-width: $bp_sm)  { @content; }
+  }
+}
+
+@mixin btn_big($bg_color: $color_accent, $text_color: #fff){
+  @include inline-block;
+  @include single-box-shadow;
+  padding: 20px 40px;
+  text-align: center;
+  background-color: $bg_color;
+  color: $text_color;
+  font-family: $font_header;
+  font-size: 50px;
+
+  &:hover{
+    background-color: $text_color;
+    color: $bg_color;
+  }
+}
+
+.big-btn{
+  @include btn_big;
+}
+
+
+
+
+/* PLACEHOLDERS
+-------------------------------------------------------------- */
+%text_btn{
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-family: $font_header;
+  font-weight: $font_weight_reg;
+}
+
+%a_color_main{
+  color: $color_main;
+
+  &:hover{
+    color: $color_accent;
+  }
+}
+
+%a_color_lt{
+  color: $color_main_lt;
+
+  &:hover{
+    color: $color_accent;
+  }
+}
+
+%a_color_wt{
+  color: #fff;
+
+  &:hover{
+    color: $color_accent;
+  }
+}
+
+%bull{
+  color: $color_accent;
+  margin: 0 10px;
+}
+
+
+
+
+.clearfix {
+    zoom:1;
+    &:before, &:after {
+        content: "\0020"; 
+        display: block; 
+        height: 0; 
+        overflow: hidden; 
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+
+
+/* BASIC STYLES
+-------------------------------------------------------------- */
+*{
+  @include box-sizing('border-box');
+}
+
+body{
+  font-family: $font_main;
+  background-color: $page_med;  
+  color: $color_main;
+  font-size: 18px;
+  font-weight: 300; 
+}
+
+a{
+  @include transition;
+  color: $color_accent;
+  text-decoration: none;
+  
+  &:hover{
+    color: $color_main;
+  }
+}
+
+p{
+  font-size: 18px;
+  line-height: 22px;
+}
+
+ul,
+ul.menu,
+ul.menu li{
+  list-style: none;
+  text-align: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+li a.active,
+li.opened span.nolink{color: $color_main;}
+
+
+.bull{
+  @extend %bull;
+}
+
+.text-btn{
+  @extend %text_btn;
+}
+
+.text-center{
+  text-align: center;
+}
+
+
+
+/* TYPOGRAPHY STYLES
+-------------------------------------------------------------- */
+body{
+}
+
+h1{
+  font-weight: normal;
+  font-family: $font_main;
+}
+
+h1{
+  font-size: 60px;
+}
+
+h2{
+  font-size: 30px;
+}
+
+h1, h2, h3{
+
+  span{
+    color: $color_accent;
+  }
+}
+
+.header-title{
+  font-family: LatoHairlineItalic;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.fc-icons{
+  [class^="icon-"], [class*=" icon-"]{
+    float: left;
+    margin: 0 5px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
