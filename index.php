@@ -37,7 +37,7 @@
 
 					<div class="inner">
 						<div id="main-quote">
-							"I am a <a href="http://b-ed.com">designer</a>, <a href="http://aimihghforlife.com">creative</a>, and <a href="http://freshcharities.com">social entrepreneur</a>. Design has the power to change the world, and I'm excited to do my part..."
+							&ldquo;I am a <a href="http://b-ed.com">designer</a>, <a href="http://aimihghforlife.com">creative</a>, and <a href="http://freshcharities.com">social entrepreneur</a>. Design has the power to change the world, and I'm excited to do my part...&rdquo;
 						</div>
 						<div id="bio">
 							<p>No stranger to charitable giving, Bryan Edwards demonstrated an innate desire for world peace and concern for all animals at an early age. At age 6, Bryan decided to become a vegetarian so that animals would trust him should he consider veterinary school. At 10, he joined the Seattle Peace Theater helping to create original musicals about peace with youth groups in Moscow and Switzerland. At 16, Bryan represented the US for Peace Child International at Habitat for Humanities Summit in Istanbul Turkey where he and his peers strategized how the U.S could build sustainable cities of the future. </p>
