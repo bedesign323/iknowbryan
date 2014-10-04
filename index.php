@@ -34,15 +34,19 @@
 				
 				<div id="about" class="section">
 					<h1>A bit about me...</h1>
-					<div id="main-quote">
-						"I am a designer, creative, and entrepreneur. I believe design has the power to change the world, and I’m excited to do my part..."
+
+					<div class="inner">
+						<div id="main-quote">
+							"I am a <a href="http://b-ed.com">designer</a>, <a href="http://aimihghforlife.com">creative</a>, and <a href="http://freshcharities.com">social entrepreneur</a>. Design has the power to change the world, and I'm excited to do my part..."
+						</div>
+						<div id="bio">
+							<p>No stranger to charitable giving, Bryan Edwards demonstrated an innate desire for world peace and concern for all animals at an early age. At age 6, Bryan decided to become a vegetarian so that animals would trust him should he consider veterinary school. At 10, he joined the Seattle Peace Theater helping to create original musicals about peace with youth groups in Moscow and Switzerland. At 16, Bryan represented the US for Peace Child International at Habitat for Humanities Summit in Istanbul Turkey where he and his peers strategized how the U.S could build sustainable cities of the future. </p>
+
+							<p>While Edwards passed on veterinary school, he gradated from Duke University earning a Bachelor of Science in Biological Anthropology & Anatomy and a minor in Visual Arts. After college Bryan pursued his love of tap dance on the world tour of Magic of Dance, performing in countries all over the world.</p>
+
+							<p>Currently, Bryan uses his artistic nature as a graphic designer to translate experiences and ideas of beauty into images on the screen. It is his holistic view of the environment and world cultures that inspired Bryan to create a place where others who are passionate about this earth can unite and share experiences; to build a community that is working towards the same inspired goal: using our energies to make this life rich as possible.</p>
 					</div>
-					<div id="bio">
-						<p>No stranger to charitable giving, Bryan Edwards demonstrated an innate desire for world peace and concern for all animals at an early age. At age 6, Bryan decided to become a vegetarian so that animals would trust him should he consider veterinary school. At 10, he joined the Seattle Peace Theater helping to create original musicals about peace with youth groups in Moscow and Switzerland. At 16, Bryan represented the US for Peace Child International at Habitat for Humanities Summit in Istanbul Turkey where he and his peers strategized how the U.S could build sustainable cities of the future. </p>
 
-<p>While Edwards passed on veterinary school, he gradated from Duke University earning a Bachelor of Science in Biological Anthropology & Anatomy and a minor in Visual Arts. After college Bryan pursued his love of tap dance on the world tour of Magic of Dance, performing in countries all over the world.</p>
-
-<p>Currently, Bryan uses his artistic nature as a graphic designer to translate experiences and ideas of beauty into images on the screen. It is his holistic view of the environment and world cultures that inspired Bryan to create a place where others who are passionate about this earth can unite and share experiences; to build a community that is working towards the same inspired goal: using our energies to make this life rich as possible.</p>
 					</div>
 				</div>
 				

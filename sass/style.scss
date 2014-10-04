@@ -129,6 +129,31 @@
 	padding-bottom: 80px;
 }
 
+.section{
+
+	.inner{
+		background-color: #fff;
+		padding: 40px;
+	}
+}
+
+#main-quote{
+	font-size: 2em;
+	
+	max-width: 800px;
+	margin: 40px auto 80px;
+}
+
+#bio{
+	max-width: 700px;
+	margin: auto;
+	margin-bottom: 40px;
+
+	p + p{
+		margin-top: 40px;
+	}
+}
+
 
 #instagram,
 #tweets{
