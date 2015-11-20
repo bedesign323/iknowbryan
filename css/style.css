@@ -99,15 +99,19 @@ table {
   font-style: italic;
 }
 @font-face {
-  font-family: 'FC-Icons-final';
-  src: url("../fonts/FC-Icons-final.eot?-henxce");
-  src: url("../fonts/FC-Icons-final.eot?#iefix-henxce") format("embedded-opentype"), url("../fonts/FC-Icons-final.woff?-henxce") format("woff"), url("../fonts/FC-Icons-final.ttf?-henxce") format("truetype"), url("../fonts/FC-Icons-final.svg?-henxce#FC-Icons-final") format("svg");
+  font-family: 'base';
+  src: url("../fonts/base.eot?1o50p");
+  src: url("../fonts/base.eot?#iefix1o50p") format("embedded-opentype"), url("../fonts/base.woff?1o50p") format("woff"), url("../fonts/base.ttf?1o50p") format("truetype"), url("../fonts/base.svg?1o50p#base") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 /* line 12, ../sass/_icons.scss */
-[class^="icon-"], [class*=" icon-"] {
-  font-family: 'FC-Icons-final';
+[class^="icon-"],
+[class*=" icon-"],
+a.service-links-twitter,
+a.service-links-facebook,
+a.service-links-google-plus {
+  font-family: 'base';
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -118,8 +122,229 @@ table {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 /* line 29, ../sass/_icons.scss */
+[class^="icon-"] img,
+[class*=" icon-"] img,
+a.service-links-twitter img,
+a.service-links-facebook img,
+a.service-links-google-plus img {
+  display: none;
+}
+
+/* line 34, ../sass/_icons.scss */
+.icon-cart:before {
+  content: "\e610";
+}
+
+/* line 37, ../sass/_icons.scss */
+.icon-bubble:before {
+  content: "\e611";
+}
+
+/* line 40, ../sass/_icons.scss */
+.icon-cog:before {
+  content: "\e612";
+}
+
+/* line 43, ../sass/_icons.scss */
+.icon-close:before {
+  content: "\e613";
+}
+
+/* line 46, ../sass/_icons.scss */
+.icon-checkmark:before {
+  content: "\e614";
+}
+
+/* line 49, ../sass/_icons.scss */
+.icon-minus:before {
+  content: "\e615";
+}
+
+/* line 52, ../sass/_icons.scss */
+.icon-plus:before {
+  content: "\e616";
+}
+
+/* line 55, ../sass/_icons.scss */
+.icon-feed:before {
+  content: "\e601";
+}
+
+/* line 58, ../sass/_icons.scss */
+.icon-youtube:before {
+  content: "\e602";
+}
+
+/* line 61, ../sass/_icons.scss */
+.icon-vimeo:before {
+  content: "\e603";
+}
+
+/* line 64, ../sass/_icons.scss */
+.icon-apple:before {
+  content: "\e604";
+}
+
+/* line 67, ../sass/_icons.scss */
+.icon-amazon:before {
+  content: "\e605";
+}
+
+/* line 70, ../sass/_icons.scss */
+.icon-mail:before {
+  content: "\e606";
+}
+
+/* line 73, ../sass/_icons.scss */
+.icon-heart:before {
+  content: "\e617";
+}
+
+/* line 76, ../sass/_icons.scss */
+.icon-heart2:before {
+  content: "\e618";
+}
+
+/* line 79, ../sass/_icons.scss */
+.icon-search:before {
+  content: "\e619";
+}
+
+/* line 82, ../sass/_icons.scss */
+.icon-list:before {
+  content: "\e60f";
+}
+
+/* line 85, ../sass/_icons.scss */
+.icon-play:before {
+  content: "\e61a";
+}
+
+/* line 88, ../sass/_icons.scss */
+.icon-pause:before {
+  content: "\e61b";
+}
+
+/* line 91, ../sass/_icons.scss */
+.icon-stop:before {
+  content: "\e61c";
+}
+
+/* line 94, ../sass/_icons.scss */
+.icon-next:before {
+  content: "\e61d";
+}
+
+/* line 97, ../sass/_icons.scss */
+.icon-previous:before {
+  content: "\e61e";
+}
+
+/* line 100, ../sass/_icons.scss */
+.icon-first:before {
+  content: "\e61f";
+}
+
+/* line 103, ../sass/_icons.scss */
+.icon-last:before {
+  content: "\e620";
+}
+
+/* line 106, ../sass/_icons.scss */
+.icon-resize-enlarge:before {
+  content: "\e621";
+}
+
+/* line 109, ../sass/_icons.scss */
+.icon-resize-shrink:before {
+  content: "\e622";
+}
+
+/* line 112, ../sass/_icons.scss */
+.icon-sound:before {
+  content: "\e623";
+}
+
+/* line 115, ../sass/_icons.scss */
+.icon-mute:before {
+  content: "\e624";
+}
+
+/* line 118, ../sass/_icons.scss */
+.icon-arrow-left:before {
+  content: "\e625";
+}
+
+/* line 121, ../sass/_icons.scss */
+.icon-arrow-down:before {
+  content: "\e626";
+}
+
+/* line 124, ../sass/_icons.scss */
+.icon-arrow-up:before {
+  content: "\e627";
+}
+
+/* line 127, ../sass/_icons.scss */
+.icon-arrow-right:before {
+  content: "\e628";
+}
+
+/* line 130, ../sass/_icons.scss */
+.icon-flickr:before {
+  content: "\e607";
+}
+
+/* line 133, ../sass/_icons.scss */
+.icon-twitter:before,
+a.service-links-twitter:before {
+  content: "\e608";
+}
+
+/* line 137, ../sass/_icons.scss */
+.icon-facebook:before,
+a.service-links-facebook:before {
+  content: "\e609";
+}
+
+/* line 141, ../sass/_icons.scss */
+.icon-googleplus:before,
+a.service-links-google-plus:before {
+  content: "\e60a";
+}
+
+/* line 145, ../sass/_icons.scss */
+.icon-pinterest:before {
+  content: "\e60b";
+}
+
+/* line 148, ../sass/_icons.scss */
+.icon-tumblr:before {
+  content: "\e60c";
+}
+
+/* line 151, ../sass/_icons.scss */
+.icon-linkedin:before {
+  content: "\e629";
+}
+
+/* line 154, ../sass/_icons.scss */
+.icon-spotify:before {
+  content: "\e600";
+}
+
+/* line 157, ../sass/_icons.scss */
+.icon-instagram:before {
+  content: "\e60d";
+}
+
+/* line 160, ../sass/_icons.scss */
+.icon-soundcloud:before {
+  content: "\e60e";
+}
+
+/* line 167, ../sass/_icons.scss */
 .block-btns a {
   display: inline-block;
   vertical-align: middle;
@@ -127,183 +352,33 @@ table {
   *zoom: 1;
   *display: inline;
 }
-/* line 32, ../sass/_icons.scss */
+/* line 170, ../sass/_icons.scss */
 .block-btns a:hover {
   color: #fff !important;
 }
-/* line 37, ../sass/_icons.scss */
+/* line 175, ../sass/_icons.scss */
 .block-btns .icon-vimeo:hover {
   background-color: #aad450;
 }
-/* line 40, ../sass/_icons.scss */
+/* line 178, ../sass/_icons.scss */
 .block-btns .icon-twitter:hover {
   background-color: #00aced;
 }
-/* line 43, ../sass/_icons.scss */
+/* line 181, ../sass/_icons.scss */
 .block-btns .icon-facebook:hover {
   background-color: #3b5998;
 }
-/* line 46, ../sass/_icons.scss */
+/* line 184, ../sass/_icons.scss */
 .block-btns .icon-googleplus:hover {
   background-color: #dd4b39;
 }
-/* line 49, ../sass/_icons.scss */
+/* line 187, ../sass/_icons.scss */
 .block-btns .icon-pinterest:hover {
   background-color: #cb2027;
 }
-/* line 52, ../sass/_icons.scss */
+/* line 190, ../sass/_icons.scss */
 .block-btns .icon-instagram:hover {
   background-color: #517fa4;
-}
-
-/* line 59, ../sass/_icons.scss */
-.icon-vimeo:before {
-  content: "\76";
-}
-
-/* line 62, ../sass/_icons.scss */
-.icon-twitter:before {
-  content: "\74";
-}
-
-/* line 65, ../sass/_icons.scss */
-.icon-facebook:before {
-  content: "\66";
-}
-
-/* line 68, ../sass/_icons.scss */
-.icon-googleplus:before {
-  content: "\67";
-}
-
-/* line 71, ../sass/_icons.scss */
-.icon-pinterest:before {
-  content: "\70";
-}
-
-/* line 74, ../sass/_icons.scss */
-.icon-instagram:before {
-  content: "\69";
-}
-
-/* line 77, ../sass/_icons.scss */
-.icon-flickr:before {
-  content: "\72";
-}
-
-/* line 80, ../sass/_icons.scss */
-.icon-linkedin:before {
-  content: "\6c";
-}
-
-/* line 83, ../sass/_icons.scss */
-.icon-heart:before {
-  content: "\48";
-}
-
-/* line 86, ../sass/_icons.scss */
-.icon-heart2:before {
-  content: "\68";
-}
-
-/* line 89, ../sass/_icons.scss */
-.icon-search:before {
-  content: "\3f";
-}
-
-/* line 92, ../sass/_icons.scss */
-.icon-link:before {
-  content: "\6b";
-}
-
-/* line 95, ../sass/_icons.scss */
-.icon-arrow-right:before {
-  content: "\3e";
-}
-
-/* line 98, ../sass/_icons.scss */
-.icon-arrow-down:before {
-  content: "\2e";
-}
-
-/* line 101, ../sass/_icons.scss */
-.icon-arrow-up:before {
-  content: "\2c";
-}
-
-/* line 104, ../sass/_icons.scss */
-.icon-arrow-left:before {
-  content: "\3c";
-}
-
-/* line 107, ../sass/_icons.scss */
-.icon-list:before {
-  content: "\3d";
-}
-
-/* line 110, ../sass/_icons.scss */
-.icon-arrow-right2:before {
-  content: "\e600";
-}
-
-/* line 113, ../sass/_icons.scss */
-.icon-arrow-left2:before {
-  content: "\e601";
-}
-
-/* line 116, ../sass/_icons.scss */
-.icon-arrow-down2:before {
-  content: "\e602";
-}
-
-/* line 119, ../sass/_icons.scss */
-.icon-arrow-up2:before {
-  content: "\e603";
-}
-
-/* line 122, ../sass/_icons.scss */
-.icon-clock:before {
-  content: "\63";
-}
-
-/* line 125, ../sass/_icons.scss */
-.icon-plus:before {
-  content: "\2b";
-}
-
-/* line 128, ../sass/_icons.scss */
-.icon-close:before {
-  content: "\78";
-}
-
-/* line 131, ../sass/_icons.scss */
-.icon-checkmark:before {
-  content: "\6d";
-}
-
-/* line 134, ../sass/_icons.scss */
-.icon-cog:before {
-  content: "\73";
-}
-
-/* line 137, ../sass/_icons.scss */
-.icon-people:before {
-  content: "\31";
-}
-
-/* line 140, ../sass/_icons.scss */
-.icon-enviro:before {
-  content: "\32";
-}
-
-/* line 143, ../sass/_icons.scss */
-.icon-animal:before {
-  content: "\33";
-}
-
-/* line 146, ../sass/_icons.scss */
-.icon-world:before {
-  content: "\77";
 }
 
 /* VARS 
@@ -313,101 +388,44 @@ table {
 /*  TRANSITIONS  */
 /* MIX-INS 
 -------------------------------------------------------------- */
-/* line 81, ../sass/_base.scss */
-.big-btn {
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  *zoom: 1;
-  *display: inline;
-  -moz-box-shadow: 0px 5px #333333;
-  -webkit-box-shadow: 0px 5px #333333;
-  box-shadow: 0px 5px #333333;
-  padding: 20px 40px;
-  text-align: center;
-  background-color: #5a9b9d;
-  color: #fff;
-  font-family: "Bebas", sans-serif;
-  font-size: 50px;
-}
-/* line 75, ../sass/_base.scss */
-.big-btn:hover {
-  background-color: #fff;
-  color: #5a9b9d;
-}
-
-/* PLACEHOLDERS
+/* PLACEHOLDERS & EXTENDS
 -------------------------------------------------------------- */
-/* line 90, ../sass/_base.scss */
-.text-btn {
-  text-transform: uppercase;
-  font-size: 12px;
-  letter-spacing: 1px;
-  font-family: "Bebas", sans-serif;
-  font-weight: 400;
-}
-
-/* line 122, ../sass/_base.scss */
-.bull {
-  color: #5a9b9d;
-  margin: 0 10px;
-}
-
-/* line 130, ../sass/_base.scss */
-.clearfix {
-  zoom: 1;
-}
-/* line 132, ../sass/_base.scss */
-.clearfix:before, .clearfix:after {
-  content: "\0020";
-  display: block;
-  height: 0;
-  overflow: hidden;
-}
-/* line 138, ../sass/_base.scss */
-.clearfix:after {
-  clear: both;
-}
-
 /* BASIC STYLES
 -------------------------------------------------------------- */
-/* line 147, ../sass/_base.scss */
+/* line 9, ../sass/style.scss */
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
-/* line 151, ../sass/_base.scss */
-body {
-  font-family: "LatoLight", sans-serif;
-  background-color: #e6e6e6;
-  color: #333;
-  font-size: 18px;
-  font-weight: 300;
+/* line 12, ../sass/style.scss */
+* img {
+  max-width: 100%;
+  height: auto;
 }
 
-/* line 159, ../sass/_base.scss */
+/* line 19, ../sass/style.scss */
+body {
+  font: 16px/1.5 "LatoLight", sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+/* line 25, ../sass/style.scss */
 a {
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  color: #5a9b9d;
+  color: #666;
   text-decoration: none;
 }
-/* line 164, ../sass/_base.scss */
+/* line 30, ../sass/style.scss */
 a:hover {
-  color: #333;
+  color: #000;
 }
 
-/* line 169, ../sass/_base.scss */
-p {
-  font-size: 18px;
-  line-height: 22px;
-}
-
-/* line 174, ../sass/_base.scss */
+/* line 37, ../sass/style.scss */
 ul,
 ul.menu,
 ul.menu li {
@@ -417,739 +435,127 @@ ul.menu li {
   padding: 0;
 }
 
-/* line 183, ../sass/_base.scss */
+/* line 46, ../sass/style.scss */
 li a.active,
 li.opened span.nolink {
-  color: #333;
-}
-
-/* line 195, ../sass/_base.scss */
-.text-center {
-  text-align: center;
-}
-
-/* TYPOGRAPHY STYLES
--------------------------------------------------------------- */
-/* line 206, ../sass/_base.scss */
-h1 {
-  font-weight: normal;
-  font-family: "LatoLight", sans-serif;
-}
-
-/* line 211, ../sass/_base.scss */
-h1 {
-  font-size: 60px;
-}
-
-/* line 215, ../sass/_base.scss */
-h2 {
-  font-size: 30px;
-}
-
-/* line 221, ../sass/_base.scss */
-h1 span, h2 span, h3 span {
-  color: #5a9b9d;
-}
-
-/* line 226, ../sass/_base.scss */
-.header-title {
-  font-family: LatoHairlineItalic;
-  font-style: italic;
-  font-weight: 100;
-  font-size: 50px;
-  margin-bottom: 40px;
-}
-
-/* line 235, ../sass/_base.scss */
-.fc-icons [class^="icon-"], .fc-icons [class*=" icon-"] {
-  float: left;
-  margin: 0 5px;
+  color: #000;
 }
 
 /* Layout
 -------------------------------------------------------------- */
-/* line 9, ../sass/style.scss */
-#wrap {
-  position: relative;
-  height: 100%;
-}
-
-/* line 14, ../sass/style.scss */
-#profile-images {
+/* line 51, ../sass/style.scss */
+#header-container {
+  background-color: #fff;
   position: fixed;
   top: 0;
   left: 0;
-  width: 20%;
-  height: 100%;
-  z-index: 100;
-  /*display: none;*/
+  z-index: 900;
+  padding: 10px;
+  width: 100%;
 }
-@media (max-width: 1400px) {
-  /* line 14, ../sass/style.scss */
-  #profile-images {
-    width: 30%;
-  }
-}
-@media (max-width: 700px) {
-  /* line 14, ../sass/style.scss */
-  #profile-images {
-    width: 100%;
-    height: 400px;
+@media (max-width: 1080px) {
+  /* line 51, ../sass/style.scss */
+  #header-container {
     position: relative;
   }
 }
 
-/* line 34, ../sass/style.scss */
-#back-to-top {
-  font-size: 40px;
-  text-align: center;
-}
-/* line 39, ../sass/style.scss */
-#back-to-top a {
-  display: block;
-  padding: 40px 0;
-  color: #333;
-}
-/* line 44, ../sass/style.scss */
-#back-to-top a:hover {
-  background-color: #ccc;
-}
-
-/* line 50, ../sass/style.scss */
-#header {
-  position: fixed;
-  top: 0;
-  left: 20%;
-  width: 80%;
-  text-align: center;
-  background-color: #fff;
-  z-index: 1;
-  padding: 60px 0 0;
-  height: 280px;
-}
-@media (max-width: 1400px) {
-  /* line 50, ../sass/style.scss */
-  #header {
-    width: 70%;
-    left: 30%;
-  }
-}
 /* line 68, ../sass/style.scss */
-#header h1 {
-  font-family: "Bebas", sans-serif;
-  font-size: 80px;
-  margin-bottom: 20px;
+.region-nav-main {
+  float: left;
 }
-@media (max-width: 700px) {
-  /* line 50, ../sass/style.scss */
-  #header {
-    position: relative;
-    left: 0;
-    width: 100%;
-    height: 250px;
-  }
-  /* line 80, ../sass/style.scss */
-  #header h1 {
-    font-size: 60px;
-  }
-}
-/* line 87, ../sass/style.scss */
-#header .social-icons a {
-  color: #333;
-  font-size: 24px;
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  line-height: 40px;
-}
-
-/* line 98, ../sass/style.scss */
-#main {
-  position: relative;
-  margin: 280px 0 0 20%;
-  z-index: 10;
-}
-@media (max-width: 1400px) {
-  /* line 98, ../sass/style.scss */
-  #main {
-    margin: 280px 0 0 30%;
-  }
-}
-/* line 107, ../sass/style.scss */
-#main h1 {
-  text-align: center;
-  font-family: "LatoLightItalic";
-  padding: 60px 0 80px;
-  clear: both;
-  background-color: #e6e6e6;
-}
-@media (max-width: 700px) {
-  /* line 98, ../sass/style.scss */
-  #main {
-    margin: 0;
-  }
-  /* line 118, ../sass/style.scss */
-  #main h1 {
-    font-size: 30px;
-    padding: 40px 20px;
+@media (max-width: 1080px) {
+  /* line 68, ../sass/style.scss */
+  .region-nav-main {
+    float: none;
   }
 }
 
-/* line 126, ../sass/style.scss */
-#whats-up {
+/* line 75, ../sass/style.scss */
+.social-icons {
+  float: right;
+}
+@media (max-width: 1080px) {
+  /* line 75, ../sass/style.scss */
+  .social-icons {
+    float: none;
+  }
+}
+
+/* line 83, ../sass/style.scss */
+#main-nav {
   *zoom: 1;
-  background-color: #f3f3f3;
-  padding-bottom: 80px;
-}
-/* line 38, ../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
-#whats-up:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* line 134, ../sass/style.scss */
-.section .inner {
-  background-color: #fff;
-  padding: 40px;
-}
-
-/* line 140, ../sass/style.scss */
-#main-quote {
-  font-size: 2em;
-  max-width: 800px;
-  margin: 40px auto 80px;
-}
-
-/* line 147, ../sass/style.scss */
-#bio {
-  max-width: 700px;
-  margin: auto;
-  margin-bottom: 40px;
-}
-/* line 152, ../sass/style.scss */
-#bio p + p {
-  margin-top: 40px;
-}
-
-/* line 158, ../sass/style.scss */
-#instagram,
-#tweets {
-  padding-top: 40px;
-}
-/* line 161, ../sass/style.scss */
-#instagram .icon,
-#tweets .icon {
-  display: block;
-  text-align: center;
-  color: #333;
-  font-size: 80px;
-  margin-bottom: 40px;
-}
-
-/* line 170, ../sass/style.scss */
-#instagram {
-  *zoom: 1;
-  float: left;
-  width: 44%;
-  margin: 0 2% 0 4%;
-}
-/* line 38, ../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
-#instagram:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-@media (max-width: 700px) {
-  /* line 170, ../sass/style.scss */
-  #instagram {
-    float: none;
-    width: 100%;
-    margin: 40px 0 0;
-    padding: 1%;
-  }
-}
-
-/* line 186, ../sass/style.scss */
-#tweets {
-  float: left;
-  width: 44%;
-  margin: 0 4% 0 2%;
-}
-/* line 191, ../sass/style.scss */
-#tweets li {
-  padding-bottom: 20px;
-  margin-bottom: 20px;
-  border-bottom: #999 dashed 1px;
-}
-/* line 199, ../sass/style.scss */
-#tweets .user img {
-  float: left;
-  margin-right: 10px;
-}
-/* line 205, ../sass/style.scss */
-#tweets .timePosted {
-  font-family: "LatoLightItalic";
-  font-size: 14px;
-  color: gray;
-}
-@media (max-width: 700px) {
-  /* line 186, ../sass/style.scss */
-  #tweets {
-    float: none;
-    width: 100%;
-    margin: 40px 0 0;
-    padding: 0 2%;
-  }
-}
-
-/* line 222, ../sass/style.scss */
-#instafeed a {
-  float: left;
-  width: 25%;
-  padding: 2px;
-}
-/* line 227, ../sass/style.scss */
-#instafeed a img {
-  width: 100%;
-  height: auto;
-}
-@media (max-width: 1400px) {
-  /* line 222, ../sass/style.scss */
-  #instafeed a {
-    width: 33%;
-  }
-}
-@media (max-width: 1080px) {
-  /* line 222, ../sass/style.scss */
-  #instafeed a {
-    width: 50%;
-  }
-}
-
-/*		Profile Images */
-/* line 250, ../sass/style.scss */
-#profile-image-0 {
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-image: url('/images/Bryan-Edwards-wall-01.jpg?1394124828');
-  background-repeat: no-repeat;
-  background-position: top center;
-  width: 100%;
-  height: 100%;
-}
-@media (max-width: 700px) {
-  /* line 250, ../sass/style.scss */
-  #profile-image-0 {
-    background-image: url('/images/Bryan-Edwards-headshot.jpg?1394252662');
-    background-repeat: no-repeat;
-    background-position: center center;
-  }
-}
-
-/* line 274, ../sass/style.scss */
-.project + .project {
-  margin-top: 280px;
-}
-@media (max-width: 700px) {
-  /* line 274, ../sass/style.scss */
-  .project + .project {
-    margin-top: 80px;
-  }
-}
-
-/* line 284, ../sass/style.scss */
-#footer {
-  text-align: center;
-  font-family: "LatoLightItalic";
-  padding: 160px 0 180px;
-  clear: both;
-  background-color: #e6e6e6;
-  font-size: 20px;
-}
-
-/*		Project  */
-/* line 294, ../sass/style.scss */
-.project {
-  clear: both;
-  background-color: #f3f3f3;
-}
-/* line 298, ../sass/style.scss */
-.project .header {
-  background-color: #f3f3f3 !important;
-  font-family: "Bebas", sans-serif;
-  font-weight: 200;
-  font-size: 40px;
-  text-align: center;
-  padding: 40px 0;
-  /*display: none;*/
-}
-@media (max-width: 700px) {
-  /* line 298, ../sass/style.scss */
-  .project .header {
-    font-size: 30px;
-    letter-spacing: 1px;
-  }
-}
-/* line 314, ../sass/style.scss */
-.project .cover {
-  height: 600px;
-}
-@media (max-width: 1080px) {
-  /* line 314, ../sass/style.scss */
-  .project .cover {
-    height: 300px;
-  }
-}
-/* line 322, ../sass/style.scss */
-.project .info {
-  margin: auto;
-  width: 60%;
-}
-@media (max-width: 1400px) {
-  /* line 322, ../sass/style.scss */
-  .project .info {
-    width: 80%;
-  }
-}
-@media (max-width: 1080px) {
-  /* line 322, ../sass/style.scss */
-  .project .info {
-    width: 100%;
-  }
-}
-/* line 335, ../sass/style.scss */
-.project h1 {
-  font-size: 46px;
-  padding: 20px 20px 5px 20px !important;
-  text-align: left !important;
-  font-family: "LatoLight", sans-serif !important;
-  background-color: transparent !important;
-}
-/* line 346, ../sass/style.scss */
-.project .tagline {
-  color: #999;
-  padding: 0 20px 40px;
-  font-size: 30px;
-  font-family: "LatoLightItalic";
-}
-@media (max-width: 700px) {
-  /* line 346, ../sass/style.scss */
-  .project .tagline {
-    font-size: 24px;
-    padding-bottom: 20px;
-  }
-}
-/* line 358, ../sass/style.scss */
-.project .desc {
-  padding: 0 20px;
-  padding-bottom: 40px;
-  font-size: 24px;
-  line-height: 28px;
-}
-@media (max-width: 1080px) {
-  /* line 358, ../sass/style.scss */
-  .project .desc {
-    width: auto;
-  }
-}
-@media (max-width: 700px) {
-  /* line 358, ../sass/style.scss */
-  .project .desc {
-    font-size: 16px;
-    line-height: normal;
-  }
-}
-/* line 376, ../sass/style.scss */
-.project .footer {
-  *zoom: 1;
-  clear: both;
-  padding: 0;
-  line-height: 40px;
-  height: 40px;
-}
-/* line 38, ../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
-.project .footer:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-@media (max-width: 700px) {
-  /* line 376, ../sass/style.scss */
-  .project .footer {
-    line-height: normal;
-    height: auto;
-    padding: 0px;
-    text-align: center;
-  }
-  /* line 390, ../sass/style.scss */
-  .project .footer .site {
-    float: none;
-    font-size: 16px;
-  }
-  /* line 395, ../sass/style.scss */
-  .project .footer .social-icons {
-    float: none;
-    padding-top: 20px;
-  }
-  /* line 399, ../sass/style.scss */
-  .project .footer .social-icons a {
-    font-size: 30px;
-    float: none;
-    width: 60px;
-    height: 60px;
-    text-align: center;
-    line-height: 60px;
-  }
-}
-/* line 411, ../sass/style.scss */
-.project .site {
-  font-family: "LatoRegular";
-  font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  float: left;
-  /*background-color: #ccc;*/
 }
-/* line 419, ../sass/style.scss */
-.project .site a {
+/* line 38, ../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
+#main-nav:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 89, ../sass/style.scss */
+#main-nav li {
   display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  *zoom: 1;
-  *display: inline;
-  padding: 0 20px;
+  margin-right: 20px;
 }
-/* line 423, ../sass/style.scss */
-.project .site a:hover {
-  background-color: #ccc;
-  color: #f3f3f3 !important;
-}
-/* line 430, ../sass/style.scss */
-.project .social-icons {
-  float: left;
-}
-/* line 433, ../sass/style.scss */
-.project .social-icons a {
-  width: 40px;
-  height: 40px;
-  font-size: 20px;
-  float: left;
-  text-align: center;
-  line-height: 40px;
-  color: #fff;
-}
-/* line 443, ../sass/style.scss */
-.project .social-icons a:hover {
-  color: #ccc;
+@media (max-width: 1080px) {
+  /* line 83, ../sass/style.scss */
+  #main-nav {
+    text-align: center;
+  }
+  /* line 105, ../sass/style.scss */
+  #main-nav ul {
+    text-align: center !important;
+  }
+  /* line 109, ../sass/style.scss */
+  #main-nav li {
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
 }
 
-/* line 452, ../sass/style.scss */
-#be-design a {
-  color: #c35b57;
-}
-/* line 455, ../sass/style.scss */
-#be-design a:hover {
-  color: #ccc;
-}
-/* line 460, ../sass/style.scss */
-#be-design .header {
-  color: #c35b57;
-}
-/* line 464, ../sass/style.scss */
-#be-design .cover {
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
-  border-bottom: #c35b57 4px solid;
-  background-image: url('/images/BE-Design-clouds.jpg?1394124524');
-  background-repeat: no-repeat;
-  background-position: center center;
-  line-height: 600px;
-  font-family: "Bebas", sans-serif;
-  background-color: #c35b57;
-  font-size: 180px;
-  text-align: center;
-}
-/* line 479, ../sass/style.scss */
-#be-design .cover a {
-  text-shadow: #c35b57 0 0 8px;
-  color: transparent;
+/* line 117, ../sass/style.scss */
+#menu {
   display: block;
 }
 @media (max-width: 1080px) {
-  /* line 464, ../sass/style.scss */
-  #be-design .cover {
-    line-height: 300px;
-    font-size: 80px;
+  /* line 117, ../sass/style.scss */
+  #menu {
+    display: none;
   }
-  /* line 490, ../sass/style.scss */
-  #be-design .cover a {
-    text-shadow: #c35b57 0 0 4px;
-    color: transparent;
+}
+
+/* line 125, ../sass/style.scss */
+.menu-toggle {
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  display: none;
+  position: fixed;
+  z-index: 900;
+  top: 0;
+  right: 20px;
+  background-color: #666;
+  color: #fff;
+  padding: 5px;
+  font-size: 2em;
+  cursor: pointer;
+}
+/* line 138, ../sass/style.scss */
+.menu-toggle:hover {
+  background-color: #000;
+}
+@media (max-width: 1080px) {
+  /* line 125, ../sass/style.scss */
+  .menu-toggle {
     display: block;
   }
 }
-/* line 500, ../sass/style.scss */
-#be-design .footer a {
-  color: #c35b57;
-}
-/* line 508, ../sass/style.scss */
-#be-design .footer .site a {
-  color: #c35b57;
-}
-/* line 511, ../sass/style.scss */
-#be-design .footer .site a:hover {
-  color: #c35b57;
-}
-/* line 518, ../sass/style.scss */
-#be-design .instafeed {
-  background-color: #c35b57;
-  /*display: none;*/
-}
 
-/* line 526, ../sass/style.scss */
-#fc a {
-  color: #5a9b9d;
-}
-/* line 529, ../sass/style.scss */
-#fc a:hover {
-  color: #ccc;
-}
-/* line 534, ../sass/style.scss */
-#fc .header {
-  color: #5a9b9d;
-}
-/* line 538, ../sass/style.scss */
-#fc .cover {
-  background-color: #354141;
-  padding-top: 220px;
-  border-bottom: #5a9b9d 4px solid;
-}
-/* line 543, ../sass/style.scss */
-#fc .cover .inner {
-  width: 700px;
-  margin: auto;
-}
-@media (max-width: 1080px) {
-  /* line 538, ../sass/style.scss */
-  #fc .cover {
-    padding-top: 60px;
-  }
-  /* line 551, ../sass/style.scss */
-  #fc .cover .inner {
-    width: auto;
-    text-align: center;
-  }
-}
-/* line 557, ../sass/style.scss */
-#fc .cover .fc-icons {
-  float: left;
-  color: #c35b57;
-}
-/* line 561, ../sass/style.scss */
-#fc .cover .fc-icons a {
-  font-size: 70px;
-}
-/* line 564, ../sass/style.scss */
-#fc .cover .fc-icons a:hover {
-  color: #fff;
-}
-@media (max-width: 1080px) {
-  /* line 557, ../sass/style.scss */
-  #fc .cover .fc-icons {
-    float: none;
-  }
-  /* line 573, ../sass/style.scss */
-  #fc .cover .fc-icons a {
-    font-size: 54px;
-    float: none;
-  }
-}
-/* line 580, ../sass/style.scss */
-#fc .cover .title {
-  float: left;
-  font-size: 86px;
-  line-height: 68px;
-  font-family: "Bebas", sans-serif;
-}
-/* line 586, ../sass/style.scss */
-#fc .cover .title a {
-  color: #fff;
-}
-/* line 589, ../sass/style.scss */
-#fc .cover .title a:hover {
-  color: #5a9b9d;
-}
-@media (max-width: 1080px) {
-  /* line 580, ../sass/style.scss */
-  #fc .cover .title {
-    font-size: 50px;
-    text-align: center;
-    line-height: normal;
-    float: none;
-  }
-}
-/* line 604, ../sass/style.scss */
-#fc .cover .tag {
-  color: #5a9b9d;
-  font-family: "LatoLightItalic";
-  text-align: center;
-  font-size: 45px;
-  padding-top: 5px;
-  clear: both;
-}
-@media (max-width: 1080px) {
-  /* line 604, ../sass/style.scss */
-  #fc .cover .tag {
-    font-size: 20px;
-    padding-top: 0;
-  }
-}
-/* line 625, ../sass/style.scss */
-#fc .footer .site a {
-  color: #5a9b9d;
-}
-/* line 628, ../sass/style.scss */
-#fc .footer .site a:hover {
-  background-color: #ccc;
-  color: #f3f3f3;
-}
-
-/* line 640, ../sass/style.scss */
-#aim-high a {
-  color: #e4ba27;
-}
-/* line 643, ../sass/style.scss */
-#aim-high a:hover {
-  color: #ccc;
-}
-/* line 648, ../sass/style.scss */
-#aim-high .header {
-  color: #333;
-}
-/* line 652, ../sass/style.scss */
-#aim-high .cover {
-  background-color: #fff;
-  border-bottom: #e4ba27 6px spoid;
-  position: relative;
-}
-/* line 657, ../sass/style.scss */
-#aim-high .cover img {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  max-width: 100%;
-}
-/* line 668, ../sass/style.scss */
-#aim-high .footer .site a {
-  color: #e4ba27;
-}
-/* line 671, ../sass/style.scss */
-#aim-high .footer .site a:hover {
-  background-color: #ccc;
-  color: #f3f3f3;
+/* line 147, ../sass/style.scss */
+#main-container {
+  margin-top: 60px;
 }

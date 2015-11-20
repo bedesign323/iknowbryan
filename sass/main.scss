@@ -1,0 +1,64 @@
+@import "compass";
+@import "_reset";
+@import "_icons";
+@import "_fonts";
+@import "_vars";
+
+//@include edit;
+
+/* BASIC STYLES
+-------------------------------------------------------------- */
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+  img{
+    max-width: 100%;
+    height: auto;
+    
+  }
+}
+
+body{
+  font: 16px/1.5 $font_main;
+  background-color: $color-bg;  
+  color: $color-text;
+}
+
+a{
+  @include link_color;
+  @extend .trans-all;
+
+  text-decoration: none;
+}
+
+h1,
+h2{
+	font-family: $font_header;
+
+	a{
+
+	}
+}
+
+h1{
+	font-size: 5em;
+}
+
+
+
+
+/* HEADER
+-------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+

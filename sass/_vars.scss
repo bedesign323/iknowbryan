@@ -1,0 +1,179 @@
+/* VARS 
+-------------------------------------------------------------- */
+$main_width    :  1200px;
+$body_pad      :  20px;
+$header_h      :  50px;
+$divider_h     :  12px;
+
+$bp_lg         :  1500px;
+$bp_med        :  1080px;
+$bp_sm         :  700px;
+
+/*  COLORS  */
+$color-primary      :  #000;                 
+$color-accent       :  #B8E986; 
+$color-bg           :  #f6f6f6;
+$color-bg-shade     :  #D8D8D8;
+$color-bg-invert    :  #fff;
+$color-text         :  #000;
+$color-text-heading :  #000;              
+$color-text-invert  :  #fff;
+$color-success      :  #B8E986;
+$color-error        :  #b54747;
+
+/*  BORDERS  */
+$border-thin :  $color-primary solid 2px;
+$border-invis :  transparent solid 2px;
+
+/*  TYPOGROPHY */
+$font_main     :  'Quattrocento Sans', sans-serif;
+$font_header   :  'Bebas Neue', sans-serif;
+$font_fancy    :  'BodoniFLF', serif;
+
+/*  TRANSITIONS */
+$trans-speed: .2s;
+$trans-ease:  ease-in-out;
+
+/* MIX-INS 
+-------------------------------------------------------------- */
+@mixin bp($point) {
+  @if $point == l {
+    @media (max-width: $bp_lg) { @content; }
+  }
+  @else if $point == m {
+    @media (max-width: $bp_med) { @content; }
+  }
+  @else if $point == s {
+    @media (max-width: $bp_sm)  { @content; }
+  }
+}
+
+@mixin rounded($radius: 300px) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+
+@mixin link_color($out : $color-text, $over : $color-accent) {
+	color: $out;
+
+	&:hover{
+		color: $over;
+	}
+}
+
+@mixin font($fw: 300, $fs: normal, $f: $font_main){
+  font-family: $f;
+  font-weight: $fw;
+  font-style: $fs;
+}
+
+.link-invert{
+  @include link_color($color-text-invert, $color-accent);
+}
+
+.trans-all{
+  -webkit-transition: all $trans-speed;
+  -moz-transition: all $trans-speed;
+  -o-transition: all $trans-speed;
+  transition: all $trans-speed;
+} 
+
+.section-header-over{
+  margin-bottom: -7px;
+  position: relative;
+  z-index: 100;
+}
+
+
+
+
+
+/* BUTTONS
+-------------------------------------------------------------- */
+
+.btn{
+  @include font(bold);
+  display: inline-block;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: $color-bg-shade;
+  color: $color-text;
+  padding:  5px 15px;
+  font-size: .8em;
+}
+
+@mixin btn_color($bg: $color-bg, $c: $color-text, $hbg: $color-bg-shade, $hc: $color-text){
+  
+  background-color: $bg;
+  color: $c;
+
+  &:hover{
+    background-color: $hbg;
+    color: $hc;
+  }
+}
+
+.btn-sm{
+  padding:  2px 8px;
+  font-size: .6em;
+}
+
+.btn-med{
+  padding:  10px 15px;
+  font-size: .8em;
+}
+
+.btn-lg{
+  padding:  20px 30px;
+  font-size: 1em;
+}
+
+.btn-lt{
+  @include btn_color($color-bg-shade, $color-text, $color-bg);
+  @extend .btn;
+}
+
+.btn-dk{
+  @include btn_color($color-text, $color-bg, $color-accent, $color-text);
+  @extend .btn;
+}
+
+
+
+
+
+
+/* PLACEHOLDERS & EXTENDS
+-------------------------------------------------------------- */
+%clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
